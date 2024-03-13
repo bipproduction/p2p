@@ -4,7 +4,7 @@ const url = new URL(window.location.href)
 
 const peer = new Peer("client2", {
     host: url.hostname,
-    port: 9000,
+    port: 3018,
     path: "peerjs/myapp",
 });
 

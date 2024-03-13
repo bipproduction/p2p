@@ -7,7 +7,7 @@ async function p2p() {
             "start",
             "start",
             yargs => yargs
-                .option("port", { type: "number", default: 9000 }),
+                .option("port", { type: "number", default: 3018 }),
             async (argv) => {
                 await main(argv.port)
             }
